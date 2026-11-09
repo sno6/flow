@@ -369,8 +369,8 @@ export function Setup({ onStart }: SetupProps) {
           position: "fixed",
           bottom: "1.5rem",
           left: "1.5rem",
-          width: "28px",
-          height: "28px",
+          width: "20px",
+          height: "20px",
           borderRadius: "50%",
           border: showAbout ? "1px solid transparent" : "1px solid #ddd",
           background: "none",
@@ -384,8 +384,8 @@ export function Setup({ onStart }: SetupProps) {
       >
         {showAbout ? (
           <svg
-            width="16"
-            height="16"
+            width="12"
+            height="12"
             viewBox="0 0 24 24"
             fill="none"
             stroke="#bbb"
@@ -399,7 +399,7 @@ export function Setup({ onStart }: SetupProps) {
         ) : (
           <span
             style={{
-              fontSize: "0.75rem",
+              fontSize: "0.65rem",
               fontWeight: 400,
               color: "#bbb",
               lineHeight: 1,
