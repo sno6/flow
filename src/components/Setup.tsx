@@ -384,8 +384,8 @@ export function Setup({ onStart }: SetupProps) {
       >
         {showAbout ? (
           <svg
-            width="12"
-            height="12"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="#bbb"
