@@ -226,27 +226,14 @@ export function Sidebar({
             padding: "0 0.5rem 1rem",
           }}
         >
-          {sessions.length === 0 ? (
-            <div
-              style={{
-                padding: "2rem 0.75rem",
-                fontSize: "0.85rem",
-                color: "#b0b0b0",
-                fontWeight: 300,
-              }}
-            >
-              Complete a flow to see it here.
-            </div>
-          ) : (
-            sessions.map((session) => (
-              <SessionRow
-                key={session.id}
-                session={session}
-                onSelect={() => onSelect(session)}
-                onDelete={() => onDelete(session.id)}
-              />
-            ))
-          )}
+          {sessions.map((session) => (
+            <SessionRow
+              key={session.id}
+              session={session}
+              onSelect={() => onSelect(session)}
+              onDelete={() => onDelete(session.id)}
+            />
+          ))}
         </div>
       </motion.div>
     </>
