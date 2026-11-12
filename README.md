@@ -1,4 +1,4 @@
-<h1><img src="docs/logo.svg" alt="" height="32"> Flow</h1>
+<h1><img src="docs/logo.svg" alt="" height="24"> Flow</h1>
 
 A freewriting tool that keeps you in the flow.
 
