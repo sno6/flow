@@ -1,6 +1,8 @@
-# Flow
+<h1><img src="docs/logo.svg" alt="" height="32"> Flow</h1>
 
 A freewriting app that keeps you moving forward.
+
+![Flow demo](docs/demo.gif)
 
 Pick a topic and a timer, then type. Your words drift away as you write — no backspace, no re-reading. When the timer ends you get the full transcript.
 
